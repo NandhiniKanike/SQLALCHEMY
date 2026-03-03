@@ -90,3 +90,57 @@ Beginners learning SQLAlchemy
 Students learning Database Systems
 Anyone practicing Python database integration
 Developers comparing ORM vs Core
+## student_app.py
+## Student Management System (SQLAlchemy + SQLite)
+## Project Description
+This is a simple Student Management System built using Python and SQLAlchemy ORM with a SQLite database.
+The project allows you to:
+Add student details
+View all students
+Update student marks
+Delete student records
+Search student by name
+The student status is automatically calculated:
+Marks ≥ 35 → Pass
+Marks < 35 → Fail
+## Technologies Used
+Python
+SQLAlchemy (ORM)
+SQLite Database
+## How to Run the Project
+Step 1: Install SQLAlchemy
+pip install sqlalchemy
+Step 2: Run the Program
+python student_app.py
+## Features
+1️.Add Student
+Enter ID
+Enter Name
+Enter Marks
+Status is calculated automatically
+2️.View Students
+Displays all student records from the database.
+3️.Update Student
+Enter student ID
+Update marks
+Status updates automatically
+4️.Delete Student
+Deletes student record using ID.
+5️.Search Student
+Search student by name.
+## Database Details
+Database Name: student.db
+Table Name: students
+Columns:
+id (Primary Key)
+name
+marks
+status
+## Learning Purpose
+This project is useful for beginners to understand:
+SQLAlchemy ORM basics
+Database creation
+CRUD operations
+Session management
+Model definition
+SQLite integration
